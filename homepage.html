@@ -1,0 +1,54 @@
+{% extends 'header-footer.html' %}
+
+
+
+
+{% load static %} {%block body%}
+
+
+<div class="container">
+  <h1> Search Dog</h1>
+
+  <form action="search_results "class="search-bar">      
+    <input type="text" placeholder="search anything" name="q">
+    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+
+  </form>
+
+  <div></div>
+  
+
+</div>
+
+<div class="container">
+
+<div class="box">
+
+  <h3>Trending</h3>
+  <i class="fa-solid fa-arrow-trend-up"></i>
+</div>
+
+<div class="box">
+  <h3>Top Products</h3>
+  
+ 
+ 
+<i class="fa-brands fa-product-hunt"></i>
+</div>
+
+<div class="box">
+
+<h3>Events Nearby</h3>
+<i class="fa-solid fa-location-dot"></i>
+
+</div>
+</div>
+
+
+
+
+
+{%endblock body%}
+
+
