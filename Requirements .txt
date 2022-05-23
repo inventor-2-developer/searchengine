@@ -1,0 +1,6 @@
+﻿1. Center the search bar and make it responsive.  
+2. Center the three boxes and make them responsive. (Place them under the search bar)
+3. Place the name (search dog) above the search bar and centered
+4. Navbar- equal spacing between the words, logo and register
+5. Logo in the left corner.
+6. Registration icon (75x75 pixels)
